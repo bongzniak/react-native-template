@@ -1,0 +1,78 @@
+{
+  "localized": {
+    "emoji": {
+      "category": "Emotion",
+      "exercise": {
+        "running": "Running",
+        "gym": "Gym",
+        "cycling": "Cycling",
+        "swimming": "Swimming",
+        "stretching": "Stretching",
+        "yoga": "Yoga",
+        "hiking": "Hiking",
+        "basketball": "Basketball",
+        "soccer": "Soccer",
+        "climbing": "Climbing"
+      },
+      "study": {
+        "reading": "Reading",
+        "learning": "Learning",
+        "coding": "Coding",
+        "writing": "Writing",
+        "notetaking": "Notetaking",
+        "lecture": "Lecture",
+        "textbook": "Textbook",
+        "math": "Math",
+        "experiment": "Experiment"
+      },
+      "hobby": {
+        "drawing": "Drawing",
+        "instrument": "Instrument",
+        "gaming": "Gaming",
+        "photography": "Photography",
+        "sewing": "Sewing",
+        "knitting": "Knitting",
+        "gardening": "Gardening",
+        "puzzle": "Puzzle",
+        "acting": "Acting",
+        "filmmaking": "Filmmaking"
+      },
+      "lifestyle": {
+        "organizing": "Organizing",
+        "cleaning": "Cleaning",
+        "laundry": "Laundry",
+        "shopping": "Shopping",
+        "drinking_water": "Drinking water",
+        "wake_up_early": "Wake up early",
+        "walking": "Walking",
+        "make_bed": "Make bed",
+        "dishes": "Dishes"
+      },
+      "mind": {
+        "meditation": "Meditation",
+        "rest": "Rest",
+        "emotion_care": "Emotion care",
+        "hospital": "Hospital",
+        "medicine": "Medicine",
+        "body_care": "Body care",
+        "health_check": "Health check",
+        "digital_detox": "Digital detox"
+      },
+      "emotion": {
+        "happy": "Happy",
+        "satisfied": "Satisfied",
+        "proud": "Proud",
+        "motivated": "Motivated",
+        "relaxed": "Relaxed",
+        "calm": "Calm",
+        "foggy": "Foggy",
+        "tired": "Tired",
+        "exhausted": "Exhausted",
+        "overwhelmed": "Overwhelmed",
+        "annoyed": "Annoyed",
+        "stressed": "Stressed",
+        "touched": "Touched"
+      }
+    }
+  }
+}

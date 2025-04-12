@@ -1,0 +1,89 @@
+# macOS
+.DS_Store
+
+# node modules
+node_modules/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# logs
+*.log
+
+# dotenv
+.env
+.env.*
+
+# ✅ Exception: include the env/ folder and its contents
+!env/
+!env/**
+
+# bundler output
+*.bundle
+*.map
+
+# metro cache
+.expo/
+.expo-shared/
+metro-cache/
+cache/
+tmp/
+tmp/*
+
+# React Native Packager
+react-native-debugger/
+
+# build outputs
+dist/
+build/
+ios/build/
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/build/
+
+# Android/IntelliJ
+*.iml
+.gradle/
+local.properties
+.idea/
+*.keystore
+
+# Xcode
+ios/DerivedData/
+ios/xcuserdata/
+ios/*.xcworkspace
+ios/Podfile.lock
+ios/Podfile.bak
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/test_output/
+
+# Ruby
+.bundle
+vendor/bundle/
+
+# watchman
+.watchmanconfig
+
+# miscellaneous
+coverage/
+test_output/
+*.swp
+*.swo
+*.orig
+
+# VSCode
+.vscode/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# OS-specific
+Thumbs.db
+ehthumbs.db

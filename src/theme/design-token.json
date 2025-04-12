@@ -1,0 +1,988 @@
+{
+  "user": {
+    "light": {
+      "text": {
+        "primary": {
+          "value": "#151515",
+          "type": "color",
+          "description": "text-primary\n가장 위계가 높은 텍스트 컬러. 기본으로 사용하며 타이틀, 본문 등에 사용"
+        },
+        "secondary": {
+          "value": "#454545",
+          "type": "color",
+          "description": "두번째 위계의 텍스트 컬러로, body 또는 버튼 내 텍스트에 사용"
+        },
+        "tertiary": {
+          "value": "#666666",
+          "type": "color"
+        },
+        "quaternary": {
+          "value": "#999999",
+          "type": "color"
+        },
+        "primary-a": {
+          "value": "#000000ed",
+          "type": "color"
+        },
+        "secondary-a": {
+          "value": "#000000ba",
+          "type": "color"
+        },
+        "tertiary-a": {
+          "value": "#00000099",
+          "type": "color",
+          "description": "세번째 위계의 텍스트 컬러로, 덜 중요한 guide나 disabled 메시지에 사용"
+        },
+        "quaternary-a": {
+          "value": "#00000080",
+          "type": "color"
+        },
+        "red": {
+          "value": "#ff4a40",
+          "type": "color",
+          "description": "error, warning, critical한 메시지에 사용"
+        },
+        "blue": {
+          "value": "#148aff",
+          "type": "color",
+          "description": "action, 강조되어야 하는 정보 또는 완료, 긍정의 메시지에 사용"
+        },
+        "invert-a": {
+          "value": "#ffffffed",
+          "type": "color"
+        },
+        "green": {
+          "value": "#00b84d",
+          "type": "color"
+        },
+        "yellow": {
+          "value": "#f29900",
+          "type": "color"
+        },
+        "grey": {
+          "value": "#666666",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "primary": {
+          "value": "#000000",
+          "type": "color",
+          "description": "가장 위계가 높은 아이콘 컬러. 시각적으로 명료하게 보여야하는 아이콘에 사용"
+        },
+        "secondary-a": {
+          "value": "#000000ba",
+          "type": "color"
+        },
+        "tertiary-a": {
+          "value": "#00000080",
+          "type": "color",
+          "description": "두번째 위계의 아이콘 컬러로, 주로 버튼 내에 있는 아이콘에 사용"
+        },
+        "quaternary-a": {
+          "value": "#0000004d",
+          "type": "color",
+          "description": "네번째 위계의 아이콘 컬러로, select/unselect의 상태가 명확하게 구분되어야 할때 unselected 상태로 사용하거나, guide에 활용"
+        },
+        "red": {
+          "value": "#ff4a40",
+          "type": "color",
+          "description": "error, warning, critical한 메시지가 필요한 아이콘에 사용"
+        },
+        "blue": {
+          "value": "#148aff",
+          "type": "color",
+          "description": "action, 강조되어야 하는 정보 또는 완료, 긍정의 의미를 가진 아이콘에 사용"
+        },
+        "green": {
+          "value": "#00b84d",
+          "type": "color"
+        },
+        "invert": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "모드의 배경색과 동일한 아이콘 색상을 사용하고자할때 사용"
+        },
+        "yellow": {
+          "value": "#f29900",
+          "type": "color"
+        },
+        "grey": {
+          "value": "#7a7a7a",
+          "type": "color"
+        }
+      },
+      "border": {
+        "divider-weaker": {
+          "value": "#f7f7f7",
+          "type": "color"
+        },
+        "weak-a": {
+          "value": "#0000000f",
+          "type": "color"
+        },
+        "default-a": {
+          "value": "#0000001a",
+          "type": "color",
+          "description": "surface를 감싸는 border 기본값의 컬러"
+        },
+        "strong-a": {
+          "value": "#00000033",
+          "type": "color"
+        },
+        "stronger": {
+          "value": "#454545",
+          "type": "color"
+        },
+        "red": {
+          "value": "#ff4a40",
+          "type": "color",
+          "description": "error, warning, critical한 컴포넌트에 사용하는 border color"
+        },
+        "red-weak-a": {
+          "value": "#ff4a404d",
+          "type": "color"
+        },
+        "blue": {
+          "value": "#148aff",
+          "type": "color",
+          "description": "action, 강조되어야 하는 정보 또는 완료, 긍정의 컴포넌트에 사용하는 border color"
+        },
+        "blue-weak-a": {
+          "value": "#148aff4d",
+          "type": "color"
+        },
+        "green": {
+          "value": "#00b84d",
+          "type": "color"
+        },
+        "green-weak-a": {
+          "value": "#00b84d4d",
+          "type": "color"
+        },
+        "yellow": {
+          "value": "#f29900",
+          "type": "color"
+        },
+        "yellow-weak-a": {
+          "value": "#f299004d",
+          "type": "color"
+        },
+        "grey": {
+          "value": "#7a7a7a",
+          "type": "color"
+        },
+        "grey-weak-a": {
+          "value": "#7a7a7a4d",
+          "type": "color"
+        },
+        "invert": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      },
+      "bg": {
+        "base": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "상세 페이지 등에서 필요한 경우 사용하는 base 컬러"
+        },
+        "elevated": {
+          "value": "#ffffff",
+          "type": "color",
+          "description": "modal, popper, drawer, menu 등의 base보다 z-index 상 상위의 컴포넌트에 사용"
+        },
+        "grouped-weak": {
+          "value": "#f7f7f7",
+          "type": "color"
+        },
+        "grouped-strong": {
+          "value": "#f7f7f7",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "#e6e6e6",
+          "type": "color"
+        },
+        "invert-weak-a": {
+          "value": "#ffffff26",
+          "type": "color"
+        },
+        "grouped-weak-a": {
+          "value": "#0000000f",
+          "type": "color"
+        },
+        "blue-grey": {
+          "value": "#eff1f7",
+          "type": "color"
+        }
+      },
+      "surface": {
+        "card": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "form-primary-a": {
+          "value": "#0000000f",
+          "type": "color"
+        },
+        "form-secondary-a": {
+          "value": "#0000000a",
+          "type": "color"
+        },
+        "form-red": {
+          "value": "#ff4a40",
+          "type": "color"
+        },
+        "form-red-weak-a": {
+          "value": "#ff4a4026",
+          "type": "color"
+        },
+        "form-blue": {
+          "value": "#148aff",
+          "type": "color"
+        },
+        "form-blue-weak-a": {
+          "value": "#007aff26",
+          "type": "color"
+        },
+        "form-green": {
+          "value": "#00bf59",
+          "type": "color"
+        },
+        "form-green-weak-a": {
+          "value": "#00b84d26",
+          "type": "color"
+        },
+        "display-bar-top": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "display-bar-bottom": {
+          "value": "#fdfdfd",
+          "type": "color"
+        },
+        "display-lock": {
+          "value": "#bfbfbf",
+          "type": "color"
+        },
+        "form-inverted": {
+          "value": "#151515",
+          "type": "color",
+          "description": "강조하고싶은 영역에 반전버튼으로 쓰입니다."
+        },
+        "form-inverted-deep": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "form-gradient-h": {
+          "value": "linear-gradient(90deg, #ffffff 0%, #ffffff00 100%)",
+          "type": "color",
+          "description": "PD only"
+        },
+        "form-yellow": {
+          "value": "#f29900",
+          "type": "color"
+        },
+        "form-yellow-weak-a": {
+          "value": "#f299001f",
+          "type": "color"
+        },
+        "form-grey": {
+          "value": "#999999",
+          "type": "color"
+        },
+        "form-grey-weak-a": {
+          "value": "#6666661f",
+          "type": "color"
+        }
+      },
+      "service": {
+        "membership": {
+          "value": "#ffb010",
+          "type": "color"
+        },
+        "membership-weak-a": {
+          "value": "#eb91001f",
+          "type": "color"
+        },
+        "live": {
+          "value": "#e2012d",
+          "type": "color"
+        },
+        "live-weak-a": {
+          "value": "#e2012d4d",
+          "type": "color"
+        },
+        "noti": {
+          "value": "#020f81",
+          "type": "color"
+        },
+        "pop-bg": {
+          "value": "linear-gradient(135deg, #faf7de 13.08%, #e7edfd 87.56%)",
+          "type": "color"
+        }
+      },
+      "overlay": {
+        "hover-a": {
+          "value": "#0000001a",
+          "type": "color",
+          "description": "form component에 hover효과를 주기 위해 컬러값을 추가하는 경우 사용"
+        },
+        "press-a": {
+          "value": "#00000026",
+          "type": "color"
+        },
+        "hover-grey-a": {
+          "value": "#4545451a",
+          "type": "color"
+        },
+        "press-grey-a": {
+          "value": "#45454526",
+          "type": "color"
+        }
+      }
+    },
+    "dark": {
+      "text": {
+        "primary": {
+          "value": "#eeeeee",
+          "type": "color",
+          "description": "text-primary\n가장 위계가 높은 텍스트 컬러. 기본으로 사용하며 타이틀, 본문 등에 사용"
+        },
+        "secondary": {
+          "value": "#bababa",
+          "type": "color"
+        },
+        "tertiary": {
+          "value": "#999999",
+          "type": "color"
+        },
+        "quaternary": {
+          "value": "#777777",
+          "type": "color"
+        },
+        "primary-a": {
+          "value": "#ffffffed",
+          "type": "color"
+        },
+        "secondary-a": {
+          "value": "#ffffffba",
+          "type": "color"
+        },
+        "tertiary-a": {
+          "value": "#ffffff99",
+          "type": "color"
+        },
+        "quaternary-a": {
+          "value": "#ffffff80",
+          "type": "color"
+        },
+        "red": {
+          "value": "#ff4747",
+          "type": "color"
+        },
+        "blue": {
+          "value": "#0090ff",
+          "type": "color"
+        },
+        "green": {
+          "value": "#0be06f",
+          "type": "color"
+        },
+        "invert-a": {
+          "value": "#000000ed",
+          "type": "color"
+        },
+        "yellow": {
+          "value": "#f5b625",
+          "type": "color"
+        },
+        "grey": {
+          "value": "#b3b3b3",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "primary": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "secondary-a": {
+          "value": "#ffffffba",
+          "type": "color"
+        },
+        "tertiary-a": {
+          "value": "#ffffff80",
+          "type": "color"
+        },
+        "quaternary-a": {
+          "value": "#ffffff4d",
+          "type": "color"
+        },
+        "red": {
+          "value": "#ff4747",
+          "type": "color"
+        },
+        "blue": {
+          "value": "#0090ff",
+          "type": "color"
+        },
+        "green": {
+          "value": "#0be06f",
+          "type": "color"
+        },
+        "invert": {
+          "value": "#0d0d0d",
+          "type": "color",
+          "description": "모드의 배경색과 동일한 아이콘 색상을 사용하고자할때 사용"
+        },
+        "yellow": {
+          "value": "#f5b625",
+          "type": "color"
+        },
+        "grey": {
+          "value": "#b3b3b3",
+          "type": "color"
+        }
+      },
+      "border": {
+        "divider-weaker": {
+          "value": "#0d0d0d",
+          "type": "color"
+        },
+        "weak-a": {
+          "value": "#ffffff0a",
+          "type": "color"
+        },
+        "default-a": {
+          "value": "#ffffff1a",
+          "type": "color"
+        },
+        "strong-a": {
+          "value": "#ffffff33",
+          "type": "color"
+        },
+        "stronger": {
+          "value": "#eeeeee",
+          "type": "color"
+        },
+        "red": {
+          "value": "#ff4747",
+          "type": "color"
+        },
+        "red-weak-a": {
+          "value": "#ff47474d",
+          "type": "color"
+        },
+        "blue": {
+          "value": "#0090ff",
+          "type": "color"
+        },
+        "blue-weak-a": {
+          "value": "#0090ff4d",
+          "type": "color"
+        },
+        "green": {
+          "value": "#0be06f",
+          "type": "color"
+        },
+        "green-weak-a": {
+          "value": "#0be06f4d",
+          "type": "color"
+        },
+        "yellow": {
+          "value": "#f5b625",
+          "type": "color"
+        },
+        "yellow-weak-a": {
+          "value": "#f5b6254d",
+          "type": "color"
+        },
+        "grey": {
+          "value": "#b3b3b3",
+          "type": "color"
+        },
+        "grey-weak-a": {
+          "value": "#b3b3b34d",
+          "type": "color"
+        },
+        "invert": {
+          "value": "#0d0d0d",
+          "type": "color"
+        }
+      },
+      "bg": {
+        "base": {
+          "value": "#151515",
+          "type": "color"
+        },
+        "elevated": {
+          "value": "#232323",
+          "type": "color"
+        },
+        "grouped-weak": {
+          "value": "#111111",
+          "type": "color"
+        },
+        "grouped-strong": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "highlight": {
+          "value": "#2f2f2f",
+          "type": "color"
+        },
+        "invert-weak-a": {
+          "value": "#00000026",
+          "type": "color"
+        },
+        "grouped-weak-a": {
+          "value": "#ffffff0f",
+          "type": "color"
+        },
+        "blue-grey": {
+          "value": "#1f2023",
+          "type": "color"
+        }
+      },
+      "service": {
+        "membership": {
+          "value": "#ffbf00",
+          "type": "color"
+        },
+        "membership-weak-a": {
+          "value": "#ffbf001f",
+          "type": "color"
+        },
+        "live": {
+          "value": "#e51a42",
+          "type": "color"
+        },
+        "live-weak-a": {
+          "value": "#e51a4226",
+          "type": "color"
+        },
+        "noti": {
+          "value": "#0c198b",
+          "type": "color"
+        },
+        "pop-bg": {
+          "value": "linear-gradient(135deg, #3b3a2d 13.08%, #232732 87.56%)",
+          "type": "color"
+        }
+      },
+      "overlay": {
+        "hover-a": {
+          "value": "#ffffff14",
+          "type": "color"
+        },
+        "press-a": {
+          "value": "#ffffff33",
+          "type": "color"
+        },
+        "hover-grey-a": {
+          "value": "#4545451a",
+          "type": "color"
+        },
+        "press-grey-a": {
+          "value": "#45454526",
+          "type": "color"
+        }
+      },
+      "surface": {
+        "card": {
+          "value": "#232323",
+          "type": "color"
+        },
+        "form-primary-a": {
+          "value": "#ffffff0f",
+          "type": "color"
+        },
+        "form-secondary-a": {
+          "value": "#ffffff0a",
+          "type": "color"
+        },
+        "form-red": {
+          "value": "#ff4747",
+          "type": "color"
+        },
+        "form-red-weak-a": {
+          "value": "#ff47471f",
+          "type": "color"
+        },
+        "form-blue": {
+          "value": "#0090ff",
+          "type": "color"
+        },
+        "form-blue-weak-a": {
+          "value": "#0f97ff1f",
+          "type": "color"
+        },
+        "form-green": {
+          "value": "#00cc5f",
+          "type": "color"
+        },
+        "form-green-weak-a": {
+          "value": "#0be06f14",
+          "type": "color"
+        },
+        "display-bar-top": {
+          "value": "#151515",
+          "type": "color"
+        },
+        "display-bar-bottom": {
+          "value": "#151515",
+          "type": "color"
+        },
+        "display-lock": {
+          "value": "#2f2f2f",
+          "type": "color"
+        },
+        "form-inverted": {
+          "value": "#f7f7f7",
+          "type": "color",
+          "description": "강조하고싶은 영역에 반전버튼으로 쓰입니다."
+        },
+        "form-inverted-deep": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "form-gradient-h": {
+          "value": "linear-gradient(90deg, #151515 0%, #15151500 100%)",
+          "type": "color",
+          "description": "PD only - 좌우그라데이션"
+        },
+        "form-yellow": {
+          "value": "#f5b625",
+          "type": "color"
+        },
+        "form-yellow-weak-a": {
+          "value": "#f5b62514",
+          "type": "color"
+        },
+        "form-grey": {
+          "value": "#7a7a7a",
+          "type": "color"
+        },
+        "form-grey-weak-a": {
+          "value": "#b3b3b314",
+          "type": "color"
+        }
+      }
+    },
+    "always": {
+      "white100": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "white080-a": {
+        "value": "#ffffffcc",
+        "type": "color"
+      },
+      "white060-a": {
+        "value": "#ffffff99",
+        "type": "color"
+      },
+      "white050-a": {
+        "value": "#ffffff80",
+        "type": "color"
+      },
+      "white030-a": {
+        "value": "#ffffff4d",
+        "type": "color"
+      },
+      "white020-a": {
+        "value": "#ffffff33",
+        "type": "color"
+      },
+      "white015-a": {
+        "value": "#ffffff26",
+        "type": "color"
+      },
+      "white010-a": {
+        "value": "#ffffff1a",
+        "type": "color"
+      },
+      "white006-a": {
+        "value": "#ffffff0f",
+        "type": "color"
+      },
+      "black100": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "black080-a": {
+        "value": "#000000cc",
+        "type": "color"
+      },
+      "black060-a": {
+        "value": "#00000099",
+        "type": "color"
+      },
+      "black050-a": {
+        "value": "#00000080",
+        "type": "color"
+      },
+      "black030-a": {
+        "value": "#0000004d",
+        "type": "color"
+      },
+      "black020-a": {
+        "value": "#00000033",
+        "type": "color"
+      },
+      "black015-a": {
+        "value": "#00000026",
+        "type": "color"
+      },
+      "black010-a": {
+        "value": "#0000001a",
+        "type": "color"
+      },
+      "black006-a": {
+        "value": "#0000000f",
+        "type": "color"
+      },
+      "lightgrey100": {
+        "value": "#999999",
+        "type": "color"
+      },
+      "grey085": {
+        "value": "#5c5c5c",
+        "type": "color"
+      },
+      "lightgrey080-a": {
+        "value": "#999999cc",
+        "type": "color"
+      },
+      "lightgrey050-a": {
+        "value": "#99999980",
+        "type": "color"
+      },
+      "lightgrey030-a": {
+        "value": "#9999994d",
+        "type": "color"
+      },
+      "lightgrey020-a": {
+        "value": "#99999933",
+        "type": "color"
+      },
+      "lightgrey015-a": {
+        "value": "#99999926",
+        "type": "color"
+      },
+      "lightgrey010-a": {
+        "value": "#9999991a",
+        "type": "color"
+      },
+      "lightgrey006-a": {
+        "value": "#9999990f",
+        "type": "color"
+      },
+      "grey-strong": {
+        "value": "#232323",
+        "type": "color"
+      },
+      "palette05": {
+        "value": "linear-gradient(135deg, #db2667 0%, #f4a368 100%)",
+        "type": "color"
+      },
+      "service": {
+        "live-red": {
+          "value": "#ff0000",
+          "type": "color"
+        },
+        "red080-a": {
+          "value": "#f5254acc",
+          "type": "color"
+        },
+        "point": {
+          "value": "linear-gradient(135deg, #1cac3c 0%, #1ca6bb 100%)",
+          "type": "color"
+        },
+        "survey-thumb-a": {
+          "value": "#7192f5cc",
+          "type": "color"
+        },
+        "post-thumb-a": {
+          "value": "#aa89f5cc",
+          "type": "color"
+        },
+        "ticket": {
+          "value": "#00bf59",
+          "type": "color"
+        },
+        "survey": {
+          "value": "#597eff",
+          "type": "color"
+        },
+        "pop-ing": {
+          "value": "linear-gradient(135deg, #db2667 0%, #f4a368 100%)",
+          "type": "color"
+        },
+        "popgrey-weak-a": {
+          "value": "#707ca00f",
+          "type": "color",
+          "description": "POP 백그라운드 영역 강조용"
+        },
+        "mnet": {
+          "value": "#ff477f",
+          "type": "color",
+          "description": "엠넷전용컬러입니다."
+        },
+        "mnetapp": {
+          "value": "#ff477f",
+          "type": "color"
+        },
+        "live-pop": {
+          "value": "#df3868",
+          "type": "color"
+        }
+      },
+      "avatar": {
+        "bg01": {
+          "value": "#aa47bc",
+          "type": "color"
+        },
+        "bg02": {
+          "value": "#7a1fa2",
+          "type": "color"
+        },
+        "bg03": {
+          "value": "#7e57c2",
+          "type": "color"
+        },
+        "bg04": {
+          "value": "#512da7",
+          "type": "color"
+        },
+        "bg05": {
+          "value": "#5c6bc0",
+          "type": "color"
+        },
+        "bg06": {
+          "value": "#0288d1",
+          "type": "color"
+        },
+        "bg07": {
+          "value": "#00579c",
+          "type": "color"
+        },
+        "bg08": {
+          "value": "#0098a6",
+          "type": "color"
+        },
+        "bg09": {
+          "value": "#00887a",
+          "type": "color"
+        },
+        "bg10": {
+          "value": "#689f39",
+          "type": "color"
+        },
+        "bg11": {
+          "value": "#33691e",
+          "type": "color"
+        },
+        "bg12": {
+          "value": "#004c3f",
+          "type": "color"
+        },
+        "bg13": {
+          "value": "#ec407a",
+          "type": "color"
+        },
+        "bg14": {
+          "value": "#c2175b",
+          "type": "color"
+        },
+        "bg15": {
+          "value": "#bf360c",
+          "type": "color"
+        },
+        "bg16": {
+          "value": "#f5511e",
+          "type": "color"
+        },
+        "bg17": {
+          "value": "#ef6c00",
+          "type": "color"
+        },
+        "bg18": {
+          "value": "#8c6e63",
+          "type": "color"
+        },
+        "bg19": {
+          "value": "#5d4038",
+          "type": "color"
+        },
+        "bg20": {
+          "value": "#78909c",
+          "type": "color"
+        },
+        "bg21": {
+          "value": "#465a65",
+          "type": "color"
+        }
+      }
+    },
+    "auto": {
+      "text": {
+        "primary-on-light": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "secondary-on-light": {
+          "value": "#000000cc",
+          "type": "color"
+        },
+        "primary-on-dark": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "secondary-on-dark": {
+          "value": "#ffffffcc",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "primary-on-light": {
+          "value": "#000000ed",
+          "type": "color"
+        },
+        "secondary-on-light": {
+          "value": "#000000ba",
+          "type": "color"
+        },
+        "primary-on-dark": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "secondary-on-dark": {
+          "value": "#ffffff",
+          "type": "color"
+        }
+      }
+    },
+    "picker": {
+      "button": {
+        "value": "#654bff",
+        "type": "color"
+      },
+      "star": {
+        "value": "#7266ff",
+        "type": "color"
+      },
+      "on-button": {
+        "value": "#ffffff",
+        "type": "color",
+        "description": "글로벌 버튼의 위에 올라가는 텍스트,아이콘등에 쓰이는 컬러"
+      },
+      "button-weak-a": {
+        "value": "#654bff26",
+        "type": "color"
+      }
+    }
+  }
+}

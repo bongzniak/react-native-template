@@ -1,0 +1,85 @@
+{
+  "localized": {
+    "emoji": {
+      "category": {
+        "exercise": "운동",
+        "study": "공부",
+        "hobby": "취미",
+        "lifestyle": "생활",
+        "mind": "마음/건강",
+        "emotion": "감정"
+      },
+      "exercise": {
+        "running": "러닝",
+        "gym": "헬스",
+        "cycling": "자전거",
+        "swimming": "수영",
+        "stretching": "스트레칭",
+        "yoga": "요가",
+        "hiking": "등산",
+        "basketball": "농구",
+        "soccer": "축구",
+        "climbing": "클라이밍"
+      },
+      "study": {
+        "reading": "독서",
+        "learning": "공부",
+        "coding": "코딩",
+        "writing": "글쓰기",
+        "notetaking": "필기",
+        "lecture": "강의 듣기",
+        "textbook": "교재 보기",
+        "math": "수학",
+        "lab": "실험/탐구"
+      },
+      "hobby": {
+        "drawing": "그림 그리기",
+        "instrument": "악기 연습",
+        "game": "게임",
+        "photography": "사진 찍기",
+        "sewing": "바느질",
+        "knitting": "뜨개질",
+        "gardening": "식물 돌보기",
+        "puzzle": "퍼즐",
+        "theater": "연기/공연",
+        "video": "영상 만들기"
+      },
+      "lifestyle": {
+        "cleaning": "정리정돈",
+        "washing": "청소",
+        "laundry": "빨래",
+        "shopping": "장보기",
+        "hydration": "물 마시기",
+        "earlywake": "일찍 일어나기",
+        "walk": "산책",
+        "bedmaking": "이불 정리",
+        "dishes": "설거지"
+      },
+      "mind": {
+        "meditation": "명상",
+        "rest": "휴식",
+        "emotioncare": "감정 관리",
+        "hospital": "병원 가기",
+        "medicine": "약 먹기",
+        "sick": "몸 관리",
+        "healthcheck": "건강 체크",
+        "digitaldetox": "디지털 디톡스"
+      },
+      "emotion": {
+        "happy": "기분 좋음",
+        "satisfied": "만족",
+        "proud": "뿌듯함",
+        "energetic": "의욕적",
+        "chill": "여유로움",
+        "calm": "평온함",
+        "blank": "멍함",
+        "tired": "피곤함",
+        "struggle": "힘듦",
+        "tearful": "울컥함",
+        "angry": "짜증남",
+        "overwhelmed": "벅참",
+        "moved": "감동"
+      }
+    }
+  }
+}
